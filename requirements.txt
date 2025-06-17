@@ -10,7 +10,7 @@ chromadb==0.5.0 # Vector storage
 openai==1.56.1 # For embeddings
 tiktoken==0.7.0  # For embeddings 
 azure-core==1.29.5 # For Azure OpenAI authentication
-sqlite3 >= 3.35.0
+pysqlite3-binary # SQLite workaround for Streamlit Cloud
 streamlit==1.29.0 # For the web frontend
 unstructured[md]>=0.14.4
 
