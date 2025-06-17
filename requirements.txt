@@ -12,5 +12,6 @@ tiktoken==0.7.0  # For embeddings
 azure-core==1.29.5 # For Azure OpenAI authentication
 sqlite3 >= 3.35.0
 streamlit==1.29.0 # For the web frontend
+unstructured[md]>=0.14.4
 
 # install markdown depenendies with: `pip install "unstructured[md]"` after install the requirements file. Leave this line commented out. 
