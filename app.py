@@ -120,6 +120,9 @@ with st.sidebar:
     st.write("1. Your question is converted to embeddings")
     st.write("2. Similar documents are retrieved from ChromaDB")
     st.write("3. The LLM Model generates an answer based on the context")
+
+    st.header("Default Knowledge Base")
+    st.write("The default knowledge base contains the book 'Alice in Wonderland' by Lewis Carroll.")
     
     if st.button("Clear Chat History"):
         st.session_state.messages = []
