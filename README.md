@@ -1,5 +1,7 @@
 # Langchain RAG Tutorial - Azure OpenAI Version
 
+LINK TO THE DEPLOYED APP: https://rclt-base.streamlit.app/
+
 ## Install dependencies
 
 1. Do the following before installing the dependencies found in `requirements.txt` file because of current challenges installing `onnxruntime` through `pip install onnxruntime`. 
@@ -66,4 +68,4 @@ python compare_embeddings.py
 
 > You'll need an Azure OpenAI account and resource set up with deployed models for embeddings and chat completions.
 
-Here is a step-by-step tutorial video: [RAG+Langchain Python Project: Easy AI/Chat For Your Docs](https://www.youtube.com/watch?v=tcqEUSNCn8I&ab_channel=pixegami).
+LINK TO THE DEPLOYED APP: https://rclt-base.streamlit.app/
